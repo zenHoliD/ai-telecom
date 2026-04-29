@@ -29,6 +29,7 @@ Quality tiers: **[OP]** operator case study · **[IND]** independent analyst · 
 | [sources/5g-americas-ai-automation-ran.md](sources/5g-americas-ai-automation-ran.md) | 5G Americas white paper: 5-stage automation model, SON-to-AI evolution, market gap analysis | [IND] | landscape, o-ran-xapps, business-cases |
 | [sources/gartner-ai-network-ops-benchmarks.md](sources/gartner-ai-network-ops-benchmarks.md) | Gartner primary source for 40% MTTR claim — conditions, false positive dynamics, truck roll reality | [IND] | predictive-fault, roi-framework |
 | [sources/dish-echostar-oran-greenfield.md](sources/dish-echostar-oran-greenfield.md) | DISH/EchoStar greenfield O-RAN — FM-8 at scale, AI-native slippage, cost overrun lessons | [OP] | failure-modes, o-ran-xapps |
+| [sources/capacity-planning-traffic-prediction.md](sources/capacity-planning-traffic-prediction.md) | Nokia MIKA / Ericsson OSS — highest-adoption use case, 8–15% capex efficiency, embedded in existing OSS | [VND+IND] | capacity-planning |
 
 ---
 
@@ -41,6 +42,14 @@ Quality tiers: **[OP]** operator case study · **[IND]** independent analyst · 
 5. `sources/tmforum-autonomous-networks-levels.md` + `sources/mckinsey-ai-telco-roi.md` + `sources/gsma-intelligence-ai-mobile-value.md` + `sources/analysys-mason-open-ran-deployments.md` → write `roi-framework.md`
 6. `sources/ai-ran-reality-check-2026.md` + `sources/ran-ai-failure-patterns.md` + `sources/dish-echostar-oran-greenfield.md` + `sources/xapp-conflict-management-ieee.md` + your insider experience → write `failure-modes.md`
 7. `sources/5g-americas-ai-automation-ran.md` + `sources/gsma-intelligence-ai-mobile-value.md` → write `05-business-cases.md`
+8. `sources/capacity-planning-traffic-prediction.md` + your insider experience → write `capacity-planning.md`
+
+---
+
+## Operator experience
+
+**Fill in before writing any use-case file:** [operator-experience.md](operator-experience.md)
+Your direct network experience is the primary source for this guide. The template prompts you use-case by use-case.
 
 ---
 

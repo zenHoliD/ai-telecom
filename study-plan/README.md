@@ -22,6 +22,13 @@ Quality tiers: **[OP]** operator case study · **[IND]** independent analyst · 
 | [sources/tmforum-autonomous-networks-levels.md](sources/tmforum-autonomous-networks-levels.md) | TM Forum L0–L5 autonomy framework — industry-standard vocabulary for RAN AI roadmaps | [STD] | roi-framework, o-ran-xapps |
 | [sources/mckinsey-ai-telco-roi.md](sources/mckinsey-ai-telco-roi.md) | McKinsey telco AI ROI benchmarks — value leaders vs. laggards, where ROI models break | [IND] | roi-framework, failure-modes |
 | [sources/ran-ai-failure-patterns.md](sources/ran-ai-failure-patterns.md) | Synthesis: 8 RAN AI failure modes — FM-1 data quality through FM-8 integration complexity | [IND] | failure-modes |
+| [sources/rakuten-symphony-oran-production.md](sources/rakuten-symphony-oran-production.md) | Rakuten Mobile production xApps — what's real, what's proprietary, domain isolation approach | [OP] | o-ran-xapps, failure-modes |
+| [sources/gsma-intelligence-ai-mobile-value.md](sources/gsma-intelligence-ai-mobile-value.md) | GSMA operator survey: realized ROI is 50–70% of projected; AI leader vs. laggard segmentation | [IND] | roi-framework, business-cases |
+| [sources/xapp-conflict-management-ieee.md](sources/xapp-conflict-management-ieee.md) | IEEE research + O-RAN WG3 on xApp conflict — three conflict types, current solutions, maturity | [IND] | o-ran-xapps, failure-modes |
+| [sources/analysys-mason-open-ran-deployments.md](sources/analysys-mason-open-ran-deployments.md) | Analysys Mason O-RAN TCO: 3-category deployment split, business case by operator type | [IND] | o-ran-xapps, roi-framework |
+| [sources/5g-americas-ai-automation-ran.md](sources/5g-americas-ai-automation-ran.md) | 5G Americas white paper: 5-stage automation model, SON-to-AI evolution, market gap analysis | [IND] | landscape, o-ran-xapps, business-cases |
+| [sources/gartner-ai-network-ops-benchmarks.md](sources/gartner-ai-network-ops-benchmarks.md) | Gartner primary source for 40% MTTR claim — conditions, false positive dynamics, truck roll reality | [IND] | predictive-fault, roi-framework |
+| [sources/dish-echostar-oran-greenfield.md](sources/dish-echostar-oran-greenfield.md) | DISH/EchoStar greenfield O-RAN — FM-8 at scale, AI-native slippage, cost overrun lessons | [OP] | failure-modes, o-ran-xapps |
 
 ---
 
@@ -29,10 +36,11 @@ Quality tiers: **[OP]** operator case study · **[IND]** independent analyst · 
 
 1. `sources/ericsson-vodafone-energy-trial.md` + `sources/rcr-wireless-ai-ran-energy.md` → write `energy-optimization.md`
 2. `sources/ieee-comsoc-ai-3gpp-rel18.md` + `sources/vendor-ai-beam-management-proprietary.md` + `sources/3gpp-ai-ml-release-roadmap.md` → write `beam-management.md`
-3. `sources/noc-ai-predictive-fault.md` + `sources/nvidia-state-ai-telecom-2026.md` → write `predictive-fault.md`
-4. `sources/oran-ric-xapps-rapps.md` + `sources/oran-deployment-reality-2026.md` → write `o-ran-xapps.md`
-5. `sources/tmforum-autonomous-networks-levels.md` + `sources/mckinsey-ai-telco-roi.md` → write `roi-framework.md`
-6. `sources/ai-ran-reality-check-2026.md` + `sources/ran-ai-failure-patterns.md` + your insider experience → write `failure-modes.md`
+3. `sources/noc-ai-predictive-fault.md` + `sources/nvidia-state-ai-telecom-2026.md` + `sources/gartner-ai-network-ops-benchmarks.md` → write `predictive-fault.md`
+4. `sources/oran-ric-xapps-rapps.md` + `sources/oran-deployment-reality-2026.md` + `sources/rakuten-symphony-oran-production.md` + `sources/xapp-conflict-management-ieee.md` + `sources/analysys-mason-open-ran-deployments.md` → write `o-ran-xapps.md`
+5. `sources/tmforum-autonomous-networks-levels.md` + `sources/mckinsey-ai-telco-roi.md` + `sources/gsma-intelligence-ai-mobile-value.md` + `sources/analysys-mason-open-ran-deployments.md` → write `roi-framework.md`
+6. `sources/ai-ran-reality-check-2026.md` + `sources/ran-ai-failure-patterns.md` + `sources/dish-echostar-oran-greenfield.md` + `sources/xapp-conflict-management-ieee.md` + your insider experience → write `failure-modes.md`
+7. `sources/5g-americas-ai-automation-ran.md` + `sources/gsma-intelligence-ai-mobile-value.md` → write `05-business-cases.md`
 
 ---
 
@@ -41,5 +49,3 @@ Quality tiers: **[OP]** operator case study · **[IND]** independent analyst · 
 - **[STD]** 3GPP TR 38.843 full text — free at 3gpp.org (search "TR 38.843")
 - **[STD]** O-RAN Alliance WG1/WG2/WG3 specs — free at o-ran.org (registration required)
 - **[STD]** TM Forum IG1230 Autonomous Networks — ✓ covered in `tmforum-autonomous-networks-levels.md` (deeper dive: tmforum.org, registration required)
-- **[IND]** Analysys Mason Open RAN report — paid; check if org has access
-- **[IND]** Gartner 2023 MTTR reduction benchmark — paywalled; the 40% figure needs primary source verification
